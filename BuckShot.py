@@ -227,7 +227,7 @@ class Refill:
         self.position = Vector2()
         self.position.x = position.x
         self.position.y = position.y
-        self.gun_sprite = pygame.image.load('data/images/bullet.png').convert_alpha()
+        self.gun_sprite = pygame.image.load('data/images/Bullet.png').convert_alpha()
         self.gun_sprite = pygame.transform.scale(self.gun_sprite, (30, 40))
 
     def draw(self, screen):
